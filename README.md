@@ -39,20 +39,19 @@ The **Option Pricing Program** calculates the prices of European and American ca
    ```
 2. Enter the required inputs as prompted
 
-
-| Variable Name | Description                                                      |
-|---------------|------------------------------------------------------------------|
-| `S`           | Current stock price                                             |
-| `K`           | Option strike price                                             |
-| `T`           | Time to expiration (in years)                                   |
-| `r`           | Risk-free interest rate (e.g., 0.03 for 3%)                     |
-| `y`           | Dividend yield rate (e.g., 0.02 for 2%)                         |
-| `sigma`       | Volatility of the underlying stock (e.g., 0.25 for 25%)         |
-| `option_type` | Type of option: `E` for European, `A` for American              |
-| `call_put`    | Type of option: `C` for Call, `P` for Put                       |
-| `u`           | Up factor in the Binomial model                                 |
-| `d`           | Down factor in the Binomial model                               |
-| `p`           | Risk-neutral probability in the Binomial model                 |
+      | Variable Name | Description                                                      |
+      |---------------|------------------------------------------------------------------|
+      | `S`           | Current stock price                                             |
+      | `K`           | Option strike price                                             |
+      | `T`           | Time to expiration (in years)                                   |
+      | `r`           | Risk-free interest rate (e.g., 0.03 for 3%)                     |
+      | `y`           | Dividend yield rate (e.g., 0.02 for 2%)                         |
+      | `sigma`       | Volatility of the underlying stock (e.g., 0.25 for 25%)         |
+      | `option_type` | Type of option: `E` for European, `A` for American              |
+      | `call_put`    | Type of option: `C` for Call, `P` for Put                       |
+      | `u`           | Up factor in the Binomial model                                 |
+      | `d`           | Down factor in the Binomial model                               |
+      | `p`           | Risk-neutral probability in the Binomial model                 |
 
 3. The program calculates and displays the option price based on your inputs.
 
